@@ -1,5 +1,6 @@
-# pickpercent
-Простая библиотека для случайного выбора в процентах и ​​некоторые полезные инструменты для работы с процентами.
+# PickPercent
+
+A simple library to make random choice by percentage and with some other useful tools for percentage.
 
 ## Installation
 
