@@ -1,0 +1,51 @@
+{
+  "name": "pickpercent",
+  "version": "1.0.4",
+  "description": "A simple library to make random choice by percentage and with some other useful tools for percentage.",
+  "author": "Rebellionaurora'apollonia#5644 <Rebellionauroraapollonia@gmail.com> (https://github.com/Rebellionauroraapollonia)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "lint": "eslint \"./**/*.ts\" --fix"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebellionauroraapollonia#5644/pickpercent.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "husky": "^8.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "packageManager": "yarn@3.2.1",
+  "keywords": [
+    "random",
+    "loot",
+    "loot-table",
+    "percent"
+  ]
+}
